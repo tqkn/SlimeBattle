@@ -17,9 +17,9 @@ from pygame.locals import (
 pygame.init()
 
 #Setting display size
-SCREEN_X = 320
-SCREEN_Y = 240
-screen = pygame.display.set_mode((SCREEN_X, SCREEN_Y))
+SCREEN_X = 0
+SCREEN_Y = 0
+screen = pygame.display.set_mode((SCREEN_X, SCREEN_Y), pygame.FULLSCREEN)
 
 player1 = char.Player()
 
