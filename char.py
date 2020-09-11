@@ -12,4 +12,5 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.surf.get_rect()
 
 class Movement:
+    pass
     
